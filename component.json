@@ -17,6 +17,14 @@
 	  "metadata": {
 		"out": {}
 	  }
+	},
+	"transformOihToOrder": {
+	  "title": "Transform an order from OIH to DR",
+	  "description": "Transform the outgoing data from OIH-Order-model to DR Adapter",
+	  "main": "./lib/actions/transformOihToOrder.js",
+	  "metadata": {
+		"out": {}
+	  }
 	}
   }
 }

@@ -33,6 +33,7 @@
 		"mocha": "^5.2.0"
 	},
 	"scripts": {
+		"start": "node ./node_modules/elasticio-sailor-nodejs/run.js",
 		"test": "exit 0"
 	},
 	"engines": {

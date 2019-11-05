@@ -23,7 +23,7 @@
     "test": "exit 0"
   },
   "engines": {
-    "node": ">=10.15.0",
+    "node": "8.16.2",
     "npm": ">=5.4"
   },
   "dependencies": {

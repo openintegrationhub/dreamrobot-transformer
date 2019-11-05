@@ -18,6 +18,14 @@
     "integration",
     "elasticio-component"
   ],
+  "scripts": {
+    "start": "node ./node_modules/elasticio-sailor-nodejs/run.js",
+    "test": "exit 0"
+  },
+  "engines": {
+    "node": ">=10.15.0",
+    "npm": ">=5.4"
+  },
   "dependencies": {
     "@elastic.io/jsonata-moment": "1.0.15",
     "elasticio-node": "0.0.9",
@@ -31,14 +39,6 @@
     "eslint-plugin-json": "^1.2.0",
     "eslint-plugin-mocha": "^4.12.1",
     "mocha": "^5.2.0"
-  },
-  "scripts": {
-    "start": "node ./node_modules/elasticio-sailor-nodejs/run.js",
-    "test": "exit 0"
-  },
-  "engines": {
-    "node": "8.16.2",
-    "npm": ">=5.4"
   },
   "repository": "elasticio/jsonata-transform-component",
   "license": "Apache-2.0"
